@@ -1,0 +1,24 @@
+.dashboard_step1{
+    gap:100px;
+    margin-top: 50px;
+}
+.btn-ezysoft{
+    background:   #6D63FF;;
+}
+.border-indigo-400{
+    border-color:     #6D63FF;
+}
+.contact{
+    font-size: 16px;
+}
+
+.footer-dashboard{
+    margin-top: 100px;
+}
+
+.auth-padding{
+    padding: 50px;
+}
+.header-form {
+    background:#6D63FF ;
+}
