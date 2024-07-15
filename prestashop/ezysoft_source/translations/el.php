@@ -1,0 +1,33 @@
+<?php
+
+global $_MODULE;
+$_MODULE = array();
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_7773cf6751dd3f0d99c30a8e7fb4261f'] = 'EzySoft source connector';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_dbdde40f4f815dd1ed069bdb61497b07'] = 'Με αυτήν την ενότητα μπορείτε να προσθέσετε τα προϊόντα, τους πελάτες και τις παραγγελίες σας στην ezysoft';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_c888438d14855d7d96a2724ee9c306bd'] = 'Οι ρυθμίσεις ενημερώθηκαν';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_f4f70727dc34561dfde1a3c529b6205c'] = 'Ρυθμίσεις';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_2faec1f9f8cc7f8f40d521c4dd574f49'] = 'Ενεργοποίηση ';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_00d23a76e43b46dae9ec7aa9dcbebb32'] = 'Ναι';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_b9f5c797ebbf55adccdd8539a65a0241'] = 'Όχι';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_940e33e9da2a98d1db845d1f12a6c493'] = 'Θα το βρείτε μέσα από την εφαρμογή ezySoft';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_d8ae4cd2f4418811eec5b9bed6d4512b'] = 'Κλειδί API';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_1feafb67c1da8183793afe1f61bce2f4'] = 'Αναγνωριστικό καταστήματος';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_4994a8ffeba4ac3140beb89e8d41f174'] = 'Γλώσσα';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_3015573b062cfda6798d93c2ce722cc0'] = 'Θέλετε να αποστείλετε τις παραγγελίες & πελάτες στην ezysoft;';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_83cf79c1cecacabdc0505ab8832d1c67'] = 'Για τίς νέες παραγγελίες, θέλετε να ενημερώνονται οι ποσότητες στη ezysoft;';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_c9cc8cce247e49bae79f15173ce97354'] = 'Αποθήκευση';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_8b068fe02f2293c13b52d68489697dc2'] = 'ezySoft';
+$_MODULE['<{ezysoft_source}prestashop>ezysoft_source_b2d37ae1cedf42ff874289b721860af2'] = 'Ιστορικό ';
+$_MODULE['<{ezysoft_source}prestashop>field_614246b23245260bde25c8442333e8c2'] = 'Καταχώρηση προϊόντων στην ezysoft; ';
+$_MODULE['<{ezysoft_source}prestashop>field_93cba07454f06a4a960172bbd6e2a435'] = 'Ναι ';
+$_MODULE['<{ezysoft_source}prestashop>field_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Όχι';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_d3b206d196cd6be3a2764c1fb90b200f'] = 'Διαγραφή επιλεγμένων';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_e25f0ecd41211b01c83e5fec41df4fe7'] = 'Διαγραφή επιλεγμένων στοιχείων;';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_b718adec73e04ce3ec720dd11a06a308'] = 'Αναγνωριστικό ID';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_b948e8a02a7f8dc9f098c89e8df9892c'] = 'Αναγνωριστικό ID καταχώρησης';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_51c45b795d5d18a3e4e0c37e8b20a141'] = 'Πίνακας';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_40790882f56695324fe53a93dedab638'] = 'Web service - Κατάσταση';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_4c2a8fe7eaf24721cc7a9f0175115bd4'] = 'Μήνυμα';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_004bf6c9a40003140292e97330236c53'] = 'Ενέργεια';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_ec53a8c4f07baed5d8825072c89799be'] = 'Kατάσταση απόκρισης';
+$_MODULE['<{ezysoft_source}prestashop>adminezysoftlogs_44749712dbec183e983dcd78a7736c41'] = 'Ημ/νία';

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>ezysoft_source</name>
+    <displayName><![CDATA[EzySoft source connector]]></displayName>
+    <version><![CDATA[1.0.0]]></version>
+    <description><![CDATA[&Mu;&epsilon; &alpha;&upsilon;&tau;ή&nu; &tau;&eta;&nu; &epsilon;&nu;ό&tau;&eta;&tau;&alpha; &mu;&pi;&omicron;&rho;&epsilon;ί&tau;&epsilon; &nu;&alpha; &pi;&rho;&omicron;&sigma;&theta;έ&sigma;&epsilon;&tau;&epsilon; &tau;&alpha; &pi;&rho;&omicron;ϊό&nu;&tau;&alpha;, &tau;&omicron;&upsilon;&sigmaf; &pi;&epsilon;&lambda;ά&tau;&epsilon;&sigmaf; &kappa;&alpha;&iota; &tau;&iota;&sigmaf; &pi;&alpha;&rho;&alpha;&gamma;&gamma;&epsilon;&lambda;ί&epsilon;&sigmaf; &sigma;&alpha;&sigmaf; &sigma;&tau;&eta;&nu; ezysoft]]></description>
+    <author><![CDATA[ezySoft]]></author>
+    <tab><![CDATA[administration]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

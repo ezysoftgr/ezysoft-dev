@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>ezysoft_source</name>
+	<displayName><![CDATA[EzySoft source connector ]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[With this module you can add your products, customers and orders  to ezysoft]]></description>
+	<author><![CDATA[EzySoft]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
