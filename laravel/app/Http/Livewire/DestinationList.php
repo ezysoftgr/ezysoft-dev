@@ -2,15 +2,14 @@
 
 namespace App\Http\Livewire;
 
-
 use App\Models\Destination;
 use Illuminate\Support\Facades\Auth;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 use Livewire\Component;
 use Livewire\WithPagination;
-use Jantinnerezo\LivewireAlert\LivewireAlert;
+
 class DestinationList extends Component
 {
-
     use WithPagination;
     use LivewireAlert;
     public $open=false;
@@ -22,9 +21,9 @@ class DestinationList extends Component
     public $destination_url;
     public $id_model=0;
 
-
     public function render()
     {
+
         $search = '%'.$this->search.'%';
 
         return view('livewire.destinations.index',[
@@ -32,7 +31,6 @@ class DestinationList extends Component
             'count'         => Destination::where('user_id',Auth::user()->id)->count()
         ]);
     }
-
 
     public function create()
     {

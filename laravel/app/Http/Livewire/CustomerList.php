@@ -3,13 +3,14 @@
 namespace App\Http\Livewire;
 
 use App\Models\Customer;
-use App\Models\Store;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class CustomerList extends Component
 {
     public $search;
+    use WithPagination;
     public function render()
     {
         $search = '%'.$this->search.'%';

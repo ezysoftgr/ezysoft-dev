@@ -9,10 +9,12 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Product extends Model
 {
     use HasFactory;
+
+    use HasFactory;
     use SoftDeletes;
     protected $table = 'products';
-	protected $fillable = [
-		'id_source',
+    protected $fillable = [
+        'id_source',
         'name',
         'reference',
         'price',
@@ -32,13 +34,13 @@ class Product extends Model
         'skroutz_price',
         'shopflix_price',
         'available_now',
-		'wholesale_price',
+        'wholesale_price',
         'meta_description',
         'meta_title',
         'features',
         'active',
-		'category_name_default',
-		'categories_ids',
+        'category_name_default',
+        'categories_ids',
         'has_image',
         'has_features'
 

@@ -13,21 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\Laravel\Fortify\Http\Controllers\AuthenticatedSessionController::class,'create']);
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
-    'verified',
-
+    'verified'
 ])->group(function () {
-    Route::get('/dashboard', \App\Http\Livewire\Dashboad::class)->name('dashboard');
-
-
+    Route::get('/dashboard', \App\Http\Livewire\Dashboard::class)->name('dashboard');
     Route::get('products', \App\Http\Livewire\ProductList::class)->name('products');
     Route::get('customers', \App\Http\Livewire\CustomerList::class)->name('customers');
     Route::get('orders', \App\Http\Livewire\OrderList::class)->name('orders');
     Route::get('destinations', \App\Http\Livewire\DestinationList::class)->name('destinations');
-
 
 });

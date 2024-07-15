@@ -2,19 +2,16 @@
 
 namespace App\Http\Livewire;
 
-use App\Models\DestinationProduct;
-use Livewire\Component;
-use App\Models\Product;
-use App\Models\Store;
-use Livewire\WithPagination;
-use Illuminate\Support\Facades\Auth;
-
 use App\Models\Destination;
-use Illuminate\Support\Facades\Hash;
-use function Symfony\Component\Translation\t;
+use App\Models\DestinationProduct;
+use App\Models\Product;
+use Illuminate\Support\Facades\Auth;
+use Livewire\Component;
+use Livewire\WithPagination;
 
 class ProductList extends Component
 {
+
     use withPagination;
     public $search='';
     public $show_destination=0;
@@ -59,7 +56,6 @@ class ProductList extends Component
             'destinations'  => Destination::where('user_id',$user->id)->count()
         ]);
     }
-
 
 
     public function toDestination($id, $action)
@@ -111,16 +107,16 @@ class ProductList extends Component
             }
         }
 
-            $this->messages[$destination->id] = [
-                'status' => $response['response']['status'],
-                'message' => $response['response']['message'],
-                'complete' => true
-            ];
-        }
+        $this->messages[$destination->id] = [
+            'status' => $response['response']['status'],
+            'message' => $response['response']['message'],
+            'complete' => true
+        ];
+    }
 
 
 
-        //$this->close();
+    //$this->close();
 
 
     public function addList($id_destination, $id_entry)
@@ -199,7 +195,7 @@ class ProductList extends Component
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($curl, CURLOPT_HTTPHEADER, [
-         'Content-Type:application/json'
+            'Content-Type:application/json'
         ]);
         ;
 
@@ -223,5 +219,4 @@ class ProductList extends Component
     {
         $this->type = 0;
     }
-
 }

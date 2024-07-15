@@ -28,7 +28,7 @@
 
             <!-- Page Heading -->
             @if (isset($header))
-                <header class="bg-white shadow">
+                <header class="bg-white">
                     <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                         {{ $header }}
                     </div>
@@ -44,8 +44,5 @@
         @stack('modals')
 
         @livewireScripts
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-        <x-livewire-alert::scripts />
     </body>
 </html>

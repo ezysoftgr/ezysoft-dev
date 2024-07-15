@@ -33,12 +33,12 @@ Route::group(['prefix'=>'v1'],function()
     Route::get('store/{id}/product/list/exclude', [\App\Http\Controllers\api\v1\ProductController::class,'listExclude'])->middleware('checker_api');
 
     Route::post('order/store',[\App\Http\Controllers\api\v1\OrderController::class,'store'])->middleware('checker_api');
- //   Route::get('store/{id}/product/list/update/count', [\App\Http\Controllers\api\v1\ProductController::class,'listUpdateCount'])->middleware('checker_api');
-   // Route::get('store/{id}/product/list/delete/count', [\App\Http\Controllers\api\v1\ProductController::class,'listDeleteCount'])->middleware('checker_api');
-  //  Route::get('store/{id}/product/list/new/count', [\App\Http\Controllers\api\v1\ProductController::class,'listNewCount'])->middleware('checker_api');
+    //   Route::get('store/{id}/product/list/update/count', [\App\Http\Controllers\api\v1\ProductController::class,'listUpdateCount'])->middleware('checker_api');
+    // Route::get('store/{id}/product/list/delete/count', [\App\Http\Controllers\api\v1\ProductController::class,'listDeleteCount'])->middleware('checker_api');
+    //  Route::get('store/{id}/product/list/new/count', [\App\Http\Controllers\api\v1\ProductController::class,'listNewCount'])->middleware('checker_api');
     Route::post('product/callback/{action}',[\App\Http\Controllers\api\v1\ProductController::class,'callback'])->middleware('checker_api');
     Route::get('check/{api}',[\App\Http\Controllers\api\v1\ApiController::class,'check']);
-	Route::post('product/exist',[\App\Http\Controllers\api\v1\ProductController::class,'existInDatabase'])
+    Route::post('product/exist',[\App\Http\Controllers\api\v1\ProductController::class,'existInDatabase'])
         ->middleware('checker_api');
     Route::post('product/exclude',[\App\Http\Controllers\api\v1\ProductController::class,'exclude'])->middleware('checker_api');
     Route::post('product/status',[\App\Http\Controllers\api\v1\ProductController::class,'status'])->middleware('checker_api');
